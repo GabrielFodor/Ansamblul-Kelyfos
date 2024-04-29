@@ -1,0 +1,96 @@
+@media (max-width: 1100px) and (min-width: 750px) {
+  #navbar h1 {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  #navbar img {
+    height: 30px;
+    width: 30px;
+  }
+
+  #navbar ul li a {
+    font-size: 1rem;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about #d1 {
+    padding: 1.5rem;
+  }
+
+  #about #d2 {
+    padding: 1.5rem;
+  }
+
+  #about .about-text h2 {
+    font-size: 2rem;
+  }
+
+  #about .about-text p {
+    font-size: 1.3rem;
+  }
+
+  #gallery {
+    padding-bottom: 100px;
+  }
+
+  .slider {
+    width: 750px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides {
+    width: 500%;
+    height: 450px;
+    display: flex;
+  }
+
+  .slide img {
+    width: 750px;
+    height: 450px;
+  }
+
+  .navigation-manual {
+    width: 750px;
+    margin-top: -25px;
+  }
+
+  .navigation-auto {
+    width: 750px;
+    margin-top: 425px;
+  }
+
+  #contact .contact-text {
+    padding: 0 3rem;
+  }
+
+  #contact h1 {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  #contact .contact-text p {
+    font-size: 2rem;
+  }
+
+  #contact .contact-links {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  #contact .box {
+    width: 75%;
+    height: 75%;
+  }
+
+  #contact .box p {
+    font-size: 1rem;
+  }
+}

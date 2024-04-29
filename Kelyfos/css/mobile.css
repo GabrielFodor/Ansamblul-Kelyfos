@@ -1,0 +1,127 @@
+@media (max-width: 450px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #navbar h1 {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  #navbar img {
+    height: 30px;
+    width: 30px;
+  }
+
+  #navbar ul li a {
+    font-size: 1rem;
+  }
+
+  #showcase {
+    background: url('../img/Cover_2.jpg') no-repeat center center/cover;
+  }
+
+  #showcase h1 {
+    font-size: 3rem;
+  }
+
+  #showcase .showcase-content p {
+    font-size: 1.5rem;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about #d1 {
+    padding: 1.5rem;
+  }
+
+  #about #d2 {
+    padding: 1.5rem;
+  }
+
+  #about .about-text h2 {
+    font-size: 1.5rem;
+  }
+
+  #about .about-text p {
+    font-size: 1rem;
+  }
+
+  #gallery {
+    padding-bottom: 100px;
+  }
+
+  .slider {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides {
+    width: 500%;
+    height: 250px;
+    display: flex;
+  }
+
+  .slide img {
+    width: 400px;
+    height: 250px;
+  }
+
+  /* css manual slide nav */
+  .navigation-manual {
+    width: 400px;
+    margin-top: -25px;
+  }
+
+  /* css for automatic navigation */
+  .navigation-auto {
+    width: 400px;
+    margin-top: 225px;
+  }
+
+  #contact {
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  #contact .contact-text {
+    padding: 0 2rem;
+  }
+
+  #contact h1 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  #contact .contact-text p {
+    font-size: 1.5rem;
+  }
+
+  #contact .contact-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact .box {
+    width: 50%;
+    height: 50%;
+  }
+
+  #contact .box p {
+    font-size: 0.75rem;
+  }
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+#footer p {
+  font-size: 0.5rem;
+}
